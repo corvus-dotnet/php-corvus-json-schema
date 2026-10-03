@@ -1,4 +1,4 @@
-FROM php:8.4-cli-alpine
+FROM php:8.5-cli-alpine
 WORKDIR /usr/src/harness
 # PIE, PHP's extension installer.
 ADD --chmod=755 https://github.com/php/pie/releases/latest/download/pie.phar /usr/local/bin/pie
